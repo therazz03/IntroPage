@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&family=Dawning+of+a+New+Day&display=swap');
+
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: whitesmoke;
+    background: black;
+  }
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    display: block;
+    margin: 25px;
+}
+
+h1, h3{
+    text-align: center;
+    font-family: 'Dancing Script';}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.content{
+    margin: 35px;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.social-icons{
+    margin: 35px;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(4px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.icons:hover{
+    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
+}
+
+button{
+    background: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
